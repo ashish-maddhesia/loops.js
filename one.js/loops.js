@@ -19,6 +19,7 @@ let object = {
     name : "ashish",
     age :  44,
     occupation : "student"
+   
     
 
 }
@@ -49,6 +50,9 @@ students.forEach(students => {
     
     
 });
+students.forEach(students => {
+    console.log(students.name);
+   });
 
 
 
